@@ -13,5 +13,5 @@ app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
 app.listen(PORT, () => {
-    console.log(`API server now available at localhost:${PORT}`);
+    console.log(`API server now available port ${PORT}`);
   });
