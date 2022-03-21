@@ -3,7 +3,7 @@ const express = require('express');
 const PORT = process.env.PORT || 3001;
 const app = express();
 const apiRoutes = require('./routes/apiRoutes/notesRoutes');
-const htmlRoutes = require('./routes/htmlRoutes/index');
+const htmlRoutes = require('./routes/htmlRoutes/indexRoutes');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
